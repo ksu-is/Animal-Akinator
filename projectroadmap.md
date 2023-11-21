@@ -12,6 +12,8 @@ x - Locate and note problems of code (Keep running and testing code)
 
 x - Update code (Expanded and added more animals when said yes or no, also added more questions)
 
-x - Added more than 6 lines of code in Sprint 2
+x - Added more than 6 lines of code after Sprint 1
 
 x - Analyze code in VS code
+
+x - Created License in Sprint 2
