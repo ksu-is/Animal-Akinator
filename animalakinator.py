@@ -32,18 +32,34 @@ class AnimalGame:
 
 if __name__ == "__main__":
     # Example data in animals.json file
-    # You can expand and modify this as needed
+    # Can expand and modify this as needed
     example_data = {
         "question": "Does it have fur?",
         "yes": {
             "question": "Is it a carnivore?",
-            "yes": {"animal": "Lion"},
-            "no": {"animal": "Elephant"}
+            "yes": {
+                "question": "Does it live in the jungle?",
+                "yes": {"animal": "Lion"},
+                "no": {"animal": "Wolf"}
+            },
+            "no": {
+                "question": "Is it a herbivore?",
+                "yes": {"animal": "Elephant"},
+                "no": {"animal": "Giraffe"}
+            }
         },
         "no": {
             "question": "Can it fly?",
-            "yes": {"animal": "Penguin"},
-            "no": {"animal": "Snake"}
+            "yes": {
+                "question": "Is it colorful?",
+                "yes": {"animal": "Parrot"},
+                "no": {"animal": "Penguin"}
+            },
+            "no": {
+                "question": "Is it a reptile?",
+                "yes": {"animal": "Snake"},
+                "no": {"animal": "Horse"}
+            }
         }
     }
 
