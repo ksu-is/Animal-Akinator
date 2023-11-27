@@ -20,4 +20,4 @@ x - Analyze code in VS code DONE
 
 x - Created License in Sprint 2 DONE
 
-() - Create Presentation DONE
+() - Create Presentation
