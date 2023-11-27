@@ -18,4 +18,4 @@ x - Analyze code in VS code
 
 x - Created License in Sprint 2
 
-- - Create Presentation
+() - Create Presentation
