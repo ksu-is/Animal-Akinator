@@ -29,6 +29,15 @@ class AnimalGame:
         # Display the guessed animal
         if 'animal' in self.current_node:
             print(f"I guess your animal is a {self.current_node['animal']}!")
+            self.play_again()
+
+    def play_again(self):
+        response = input("Do you want to play again? (yes/no): ").lower()
+        if response == 'yes':
+            self.__init__()  # Reset the game state
+            self.play_game()
+        else:
+            print("Thanks for playing!")
 
 if __name__ == "__main__":
     # Example data in animals.json file
