@@ -20,4 +20,8 @@ x - Analyze code in VS code DONE
 
 x - Created License in Sprint 2 DONE
 
+x - Added input "Do you want to play again?" in Sprint 3 DONE
+
+x - Added print "Thanks for playing!" in Sprint 3 DONE
+
 () - Create Presentation
